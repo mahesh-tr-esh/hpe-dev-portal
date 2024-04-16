@@ -1,7 +1,7 @@
 ---
-title: Home
-author: HPE
-image: /img/home/HPE-Developer-Community-Hero-1.png
+title: OpsRamp and COM integration
+author: Mahesh T R
+image: /img/dsc_0062.jpg
 ---
 # HPE Developer Community
 
