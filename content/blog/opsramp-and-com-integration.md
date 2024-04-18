@@ -1,8 +1,9 @@
 ---
-title: OpsRamp and COM integration
+title: COM and OpsRamp custom integration
 date: 2024-04-18T04:56:08.289Z
 author: Mahesh T R
 authorimage: /img/mahesh_photo.jpeg
+thumbnailimage: /img/com_opsramp_logo.jpeg
 disable: false
 ---
 OpsRamp and COM integration has following advantages
