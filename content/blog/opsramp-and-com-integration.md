@@ -28,8 +28,6 @@ Customer require OpsRamp access token for pushing data to OpsRamp end point. Cus
 
 Setup → Accounts → "Integration and Apps" → Custom → ADD → Install → Install Custom Integration
 
-
-
 Step #3: Run POST request on COM webhook to register for events to OpsRamp end point
 
 The  curl request is as follows:
@@ -50,7 +48,7 @@ curl -i -X POST \
 
     "state": “Enabled”,
 
-    "eventFilter": "type eq '\''compute-ops/server'\''",
+    "eventFilter": "type eq '''compute-ops/server'''",
 
     "headers": {
 
@@ -80,21 +78,29 @@ Different eventFilters are as follows:
 
 *type eq 'compute-ops/firmware-bundle'*
 
-
-
 Step #4: Map attributes in OpsRamp for the COM payload
 
 
 
+F﻿ollowing are mandatory attributes for mapping
+
+S﻿ubject
+
+D﻿escription
+
+H﻿ostname
+
+M﻿etric
+
+R﻿esource
+
+R﻿esource name
+
 **For establishing inbound connection between COM/OpsRamp following steps are required.**
-
-
 
 Step #1: Customers GLCP Client ID and Client Secret for authenticating to COM service
 
 Customer has to login to GLCP to fetch [Client ID and Client Secret ](https://developer.greenlake.hpe.com/docs/greenlake/services/#configuring-api-client-credentials)
-
-
 
 Step #2: Customers Access Token for authenticating to OpsRamp customer integration
 
